@@ -12,6 +12,7 @@
 	<%
 		String driverName = "com.mysql.jdbc.Driver";//MySQL JDBC 드라이버 이름
 		String url = "jdbc:mysql://localhost:3306/abc_school";//MySQL이 설치된 주소와 연결할 DB(스키마)이름
+		//String url = "jdbc:mysql://192.168.0.100:3306/abc_school";//MySQL이 설치된 주소와 연결할 DB(스키마)이름
 		String username = "root";//계정 이름->관리자 계정 이름
 		String password = "12345";//계정 비밀번호->관리자 계정 비밀번호
 		
